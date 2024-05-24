@@ -1,0 +1,68 @@
+.form__container {
+  padding: 20px;
+  background-color: antiquewhite;
+  border-radius: 20px;
+
+  input {
+    padding: 5px 10px;
+    width: 100%;
+  }
+  & > div:not(:last-child) {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-items: start;
+    column-gap: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+
+    &:nth-child(4) input {
+      padding-right: 40px;
+    }
+  }
+}
+
+.form__gender {
+  display: flex;
+  & > div {
+    margin-right: 30px;
+    & label {
+      margin-right: 10px;
+    }
+  }
+}
+
+.form__submit {
+  background-color: rgb(217, 251, 165);
+  padding: 10px 10px;
+  border-radius: 10px;
+  transition: transform 0.4s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.form__clear {
+  background-color: rgb(240, 189, 169);
+  padding: 10px 10px;
+  border-radius: 10px;
+  transition: transform 0.4s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn__for_password {
+  position: absolute;
+  right: 0;
+}
+
+.img {
+  width: 40px;
+}

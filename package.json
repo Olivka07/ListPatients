@@ -1,0 +1,45 @@
+{
+  "name": "next-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@effector/next": "^0.7.0",
+    "@effector/reflect": "^9.2.0",
+    "@farfetched/core": "^0.12.4",
+    "@farfetched/runtypes": "^0.12.4",
+    "effector": "^23.2.1",
+    "effector-react": "^23.2.0",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.5",
+    "runtypes": "^6.7.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@effector/redux-devtools-adapter": "^0.2.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^7.10.0",
+    "@typescript-eslint/parser": "^7.10.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-effector": "^0.14.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.34.1",
+    "postcss": "^8",
+    "prettier": "^3.2.5",
+    "sass": "^1.77.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,19 @@
+.header__container {
+  display: flex;
+  flex-direction: row-reverse;
+
+  & a {
+    margin-left: 20px;
+    padding: 20px;
+
+    transition: color 0.4s;
+
+    &:hover:not(.active) {
+      color: rgb(18, 110, 176);
+    }
+  }
+}
+
+.active {
+  font-weight: 600;
+}

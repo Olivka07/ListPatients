@@ -1,0 +1,19 @@
+.patient__container {
+  margin-bottom: 20px;
+  background-color: antiquewhite;
+  padding: 20px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: start;
+
+  & > p:not(:first-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.name {
+  font-size: var(--font-size-l);
+  line-height: var(--font-line-l);
+  margin-bottom: 30px;
+}
